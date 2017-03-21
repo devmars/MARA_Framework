@@ -43,9 +43,9 @@ fi
 echo " "
 
 echo -e "${no_color}${brown}Cleaning up...${no_color}"
-rm -r documentation_old/
-rm -r tools_old/
-rm -r update/
+sudo rm -rf documentation_old/
+sudo rm -rf tools_old/
+sudo rm -rf update/
 echo " "
 
 echo -e "${no_color}${brown}Update completed...!!${no_color}"
